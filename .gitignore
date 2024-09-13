@@ -1,0 +1,7 @@
+../venv
+app/__pycache__
+app/migrations
+app/__init__.py
+
+userAuth_/__pycache__
+userAuth_/__init__.py
