@@ -1,8 +1,10 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django import forms
+from django.contrib.auth.forms import UserCreationForm
 
 # Create your models here.
-class newUser(AbstractUser):
+class NewUser(AbstractUser):
     firstname = models.CharField(max_length=100)
     lastname = models.CharField(max_length=100)
     username = models.CharField(max_length=100, unique=True)
